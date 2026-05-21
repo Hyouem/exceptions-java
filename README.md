@@ -6,6 +6,10 @@ O projeto simula o cadastro e atualização de reservas de hotel via terminal, a
 
 ---
 
+## Preview
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/d4c1c7d3-c17b-48d3-bb2b-e769722ab9a9" />
+
 ## 🚀 Objetivos do Projeto
 
 Este projeto foi desenvolvido para praticar conceitos fundamentais de backend com Java, incluindo:
