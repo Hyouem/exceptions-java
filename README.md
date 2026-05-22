@@ -1,39 +1,42 @@
 # 🏨 Hotel Reservation System
 
-Sistema simples de reserva de quartos desenvolvido em Java com foco em Programação Orientada a Objetos e tratamento de exceções personalizadas.
+Simple room reservation system developed in Java with a focus on Object-Oriented Programming and custom exception handling.
 
-O projeto simula o cadastro e atualização de reservas de hotel via terminal, aplicando regras de negócio e validações de datas.
-
----
-
-## Preview
-
-<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/d4c1c7d3-c17b-48d3-bb2b-e769722ab9a9" />
-
-## 🚀 Objetivos do Projeto
-
-Este projeto foi desenvolvido para praticar conceitos fundamentais de backend com Java, incluindo:
-
-- Programação Orientada a Objetos (POO)
-- Encapsulamento
-- Construtores
-- Sobrecarga de métodos
-- Tratamento de exceções
-- Exceções personalizadas (`DomainException`)
-- Manipulação de datas com `Date`
-- Entrada de dados com `Scanner`
+The project simulates hotel booking creation and updates via terminal, applying business rules and date validation.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📸 Preview
+
+![Preview](https://github.com/user-attachments/assets/d4c1c7d3-c17b-48d3-bb2b-e769722ab9a9)
+
+---
+
+## 🚀 Project Goals
+
+This project was developed to practice core backend concepts in Java, including:
+
+- Object-Oriented Programming (OOP)
+- Encapsulation
+- Constructors
+- Method overloading
+- Exception handling
+- Custom exceptions (`DomainException`)
+- Date handling with `Date`
+- User input with `Scanner`
+
+---
+
+## 🛠️ Technologies Used
 
 - Java
 - VS Code
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```bash
 src/
@@ -44,82 +47,49 @@ src/
 │   │   └── Reservation.java
 │   └── exceptions/
 │       └── DomainException.java
-```
 
----
+## ▶️ How to Run
 
-## ▶️ Como Executar o Projeto
-
-### 1. Clone o repositório
-
+### 1. Clone the repository
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 
-### 2. Acesse a pasta do projeto
-
-```bash
+### 2. Enter the project folder
 cd exceptions-java
-```
 
-### 3. Compile o projeto
-
-```bash
+### 3. Compile the project
 cd src
-
 javac application/Program.java model/entities/Reservation.java model/exceptions/DomainException.java
-```
 
-### 4. Execute o programa
-
-```bash
+### 4. Run the program
 java application.Program
-```
 
----
-
-## 💻 Exemplo de Execução
-
-```text
+## 💻 Example Output
 Room Number: 101
 Check-in date (dd/MM/yyyy): 25/05/2026
 Check-out date (dd/MM/yyyy): 30/05/2026
 
 Reservation: Room 101, check-in: 25/05/2026, check-out: 30/05/2026, 5 nights
-```
 
----
+## ⚠️ Business Rules
+Check-out date must be after check-in date
+Reservations cannot be updated with past dates
+Input validation and domain rule enforcement
 
-## ⚠️ Regras de Negócio
+## 📚 Concepts Applied
+Clean Code fundamentals
+Layered architecture
+Separation of concerns
+Custom exception handling
+Java best practices
 
-O sistema realiza validações como:
+## 🎯 Purpose
 
-- A data de check-out deve ser posterior ao check-in
-- Não é permitido atualizar reservas para datas passadas
-- Tratamento de erros de entrada e regras de domínio
+This project was developed for educational purposes to strengthen backend development skills in Java.
 
----
-
-## 📚 Conceitos Aplicados
-
-- Clean Code básico
-- Organização em camadas
-- Separação de responsabilidades
-- Tratamento de exceções customizadas
-- Boas práticas em Java
-
----
-
-## 🎯 Finalidade
-
-Projeto desenvolvido com fins educacionais para fortalecimento da base em desenvolvimento backend com Java.
-
----
-
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 Maurício Dos Santos
 
-🔗 LinkedIn: https://www.linkedin.com/in/mauricio-dos-santos-/
-
-🔗 GitHub: https://github.com/Hyouem
+LinkedIn: https://www.linkedin.com/in/mauricio-dos-santos-/
+GitHub: https://github.com/Hyouem
