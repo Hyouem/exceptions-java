@@ -95,4 +95,5 @@ This project was developed for educational purposes to strengthen backend develo
 Maurício Dos Santos
 
 LinkedIn: https://www.linkedin.com/in/mauricio-dos-santos-/
+
 GitHub: https://github.com/Hyouem
