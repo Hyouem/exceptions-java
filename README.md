@@ -47,6 +47,8 @@ src/
     │   └── Reservation.java
     └── exceptions/
         └── DomainException.java
+```
+
 ▶️ How to Run
 1. Clone the repository
 Bash
