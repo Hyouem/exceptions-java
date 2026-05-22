@@ -47,47 +47,37 @@ src/
 │   │   └── Reservation.java
 │   └── exceptions/
 │       └── DomainException.java
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-```bash
+▶️ How to Run
+1. Clone the repository
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-
-### 2. Enter the project folder
+2. Enter the project folder
 cd exceptions-java
-
-### 3. Compile the project
+3. Compile the project
 cd src
 javac application/Program.java model/entities/Reservation.java model/exceptions/DomainException.java
-
-### 4. Run the program
+4. Run the program
 java application.Program
-
-## 💻 Example Output
+💻 Example Output
 Room Number: 101
 Check-in date (dd/MM/yyyy): 25/05/2026
 Check-out date (dd/MM/yyyy): 30/05/2026
 
 Reservation: Room 101, check-in: 25/05/2026, check-out: 30/05/2026, 5 nights
-
-## ⚠️ Business Rules
+⚠️ Business Rules
 Check-out date must be after check-in date
 Reservations cannot be updated with past dates
 Input validation and domain rule enforcement
-
-## 📚 Concepts Applied
+📚 Concepts Applied
 Clean Code fundamentals
 Layered architecture
 Separation of concerns
 Custom exception handling
 Java best practices
-
-## 🎯 Purpose
+🎯 Purpose
 
 This project was developed for educational purposes to strengthen backend development skills in Java.
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Maurício Dos Santos
 
