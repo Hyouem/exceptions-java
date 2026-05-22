@@ -49,7 +49,7 @@ src/
         └── DomainException.java
 ```
 
-▶️ How to Run
+## ▶️ How to Run
 1. Clone the repository
 Bash
 git clone [https://github.com/Hyouem/exceptions-java.git](https://github.com/Hyouem/exceptions-java.git)
@@ -63,37 +63,36 @@ javac application/Program.java model/entities/Reservation.java model/exceptions/
 4. Run the program
 Bash
 java application.Program
-💻 Example Output
+
+## 💻 Example Output
 Plaintext
 Room Number: 101  
 Check-in date (dd/MM/yyyy): 25/05/2026  
 Check-out date (dd/MM/yyyy): 30/05/2026  
 
 Reservation: Room 101, check-in: 25/05/2026, check-out: 30/05/2026, 5 nights
-⚠️ Business Rules
-Check-out date must be after check-in date.
 
-Reservations cannot be updated with past dates.
+## ⚠️ Business Rules
 
-Input validation and domain rule enforcement.
+Check-out date must be after check-in date
+Reservations cannot be updated with past dates
+Input validation and domain rule enforcement
 
-📚 Concepts Applied
-Clean Code fundamentals.
+## 📚 Concepts Applied
 
-Layered architecture.
+Clean Code fundamentals
+Layered architecture
+Separation of concerns
+Custom exception handling
+Java best practices
 
-Separation of concerns.
+## 🎯 Purpose
 
-Custom exception handling.
-
-Java best practices.
-
-🎯 Purpose
 This project was developed for educational purposes to strengthen backend development skills in Java.
 
-👨‍💻 Author
+## 👨‍💻 Author
+
 Maurício Dos Santos
 
-LinkedIn: mauricio-dos-santos-
-
-GitHub: @Hyouem
+LinkedIn: https://www.linkedin.com/in/mauricio-dos-santos-/
+GitHub: https://github.com/Hyouem
