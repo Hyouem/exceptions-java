@@ -1,8 +1,5 @@
 # 🏨 Hotel Reservation System
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
 Simple room reservation system developed in Java with a focus on Object-Oriented Programming and custom exception handling.
 
 The project simulates hotel booking creation and updates via terminal, applying business rules and date validation.
